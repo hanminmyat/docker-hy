@@ -24,5 +24,5 @@ jobs:
       uses: docker/build-push-action@v2
       with:
         push: true
-        tags: hanminmyat/coursepage:latest
+        tags: 00928/coursepage:latest
       
