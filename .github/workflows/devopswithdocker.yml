@@ -2,7 +2,7 @@ name: Release DevOps with Docker
 
 on:
   push:
-    branches: [ main ]
+    branches: main
 
 jobs:
 
@@ -26,5 +26,4 @@ jobs:
       with:
         push: true
         tags: hanminmyat/coursepage:latest
-        
-      # run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
+      
